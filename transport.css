@@ -471,3 +471,56 @@ nav {
   }
 }
 /* end hero */
+
+/* start service */
+.services {
+  padding: 120px 0px 100px 0;
+  box-sizing: border-box;
+  margin: 0 5px;
+}
+.service-tittle h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: #030637;
+  margin-bottom: 50px;
+}
+.service-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 60px 0;
+}
+.service-box-1,
+.service-box-2,
+.service-box-3 {
+  width: 30%;
+}
+.service-box img {
+  width: 100%;
+}
+.service-box h2 span {
+  font-size: 23px;
+  font-weight: 600;
+  color: #509035;
+}
+.service-box h2 {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 30px 0 20px 0;
+}
+.service-box p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #030637;
+  text-align: justify;
+}
+@media screen and (max-width: 700px) {
+  .service-box-1,
+  .service-box-2,
+  .service-box-3 {
+    width: 85%;
+  }
+}
+/* end service */
