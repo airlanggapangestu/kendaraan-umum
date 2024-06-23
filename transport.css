@@ -524,3 +524,127 @@ nav {
   }
 }
 /* end service */
+
+/* start about */
+.about {
+  background-color: #f3ffef;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  align-items: center;
+  padding: 50px 100px 50px 20px;
+}
+.about img {
+  position: absolute;
+  right: 0px;
+  width: 600px;
+  opacity: 0.7;
+}
+.about-left {
+  width: 400px;
+  z-index: 1;
+}
+.about-left h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 25px;
+  line-height: 55px;
+  text-align: left;
+  color: #040743;
+}
+.about-left p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 25px;
+  color: #030637;
+}
+.about-left button {
+  font-family: "Raleway", sans-serif;
+  border: 0px;
+  background-color: #65b741;
+  padding: 20px 33px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+}
+.about-right-1,
+.about-right-2 {
+  display: flex;
+  position: relative;
+  border-radius: 5px;
+  width: 440px;
+  padding: 35px 35px 35px 0;
+  margin: 20px 0;
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.about-right i {
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  padding: 0px 20px 0 25px;
+  color: #65b741;
+  border-left: 2px solid #65b741;
+}
+.about-right h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #030637;
+}
+.about-right p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #030637;
+}
+@media screen and (max-width: 1076px) {
+  .about {
+    gap: 10px;
+    padding: 50px 50px 50px 20px;
+  }
+  .about-right-1,
+  .about-right-2 {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 915px) {
+  .about {
+    gap: 0px;
+    padding: 60px 0 60px 0;
+  }
+}
+@media screen and (max-width: 860px) {
+  .about {
+    flex-direction: column;
+    gap: 50px 0;
+  }
+  .about-left h1 {
+    font-size: 45px;
+  }
+  .about-left {
+    width: 70%;
+  }
+  .about-right {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .about-right-1,
+  .about-right-2 {
+    width: 70%;
+    margin: 14px 0;
+  }
+  .about img {
+    width: 80%;
+  }
+}
+/* end about */
