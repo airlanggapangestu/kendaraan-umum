@@ -873,3 +873,69 @@ nav {
   }
 }
 /* end contact */
+
+/* start testi */
+
+.testi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 100px;
+  background-color: #f3ffef;
+}
+.testi h2 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  color: #101459;
+  margin-bottom: 50px;
+}
+.testi-box {
+  background-color: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 0px 8px 0px;
+  padding: 50px 80px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.testi-box p {
+  font-size: 21px;
+  font-weight: 400;
+  color: #040743;
+  line-height: 32px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.testi-profil img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.testi-profil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testi-profil h3 {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.testi-profil h4 {
+  font-weight: 400;
+  font-size: 14px;
+}
+@media screen and (max-width: 1000px) {
+  .testi {
+    padding: 100px 30px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .testi-box {
+    padding: 50px 30px;
+  }
+}
+/* end testi */
