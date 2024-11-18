@@ -350,7 +350,7 @@ nav {
 
 /* start hero */
 .hero-image {
-  background-image: url(../transportWeb/image/haidan-7b4Wt4J6Ryc-unsplash.jpg);
+  background-image: url(image/haidan-7b4Wt4J6Ryc-unsplash.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -663,7 +663,7 @@ nav {
 }
 .blog-img {
   width: 52%;
-  background-image: url(../transportWeb/image/rosebox-BFdSCxmqvYc-unsplash.jpg);
+  background-image: url(image/rosebox-BFdSCxmqvYc-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -876,7 +876,7 @@ nav {
 
 /* start gallery */
 .gallery {
-  background-image: url(./image/mufid-majnun-L6trBy6jwek-unsplash.jpg);
+  background-image: url(image/mufid-majnun-L6trBy6jwek-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
